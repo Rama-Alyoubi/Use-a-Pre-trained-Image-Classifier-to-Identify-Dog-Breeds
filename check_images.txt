@@ -1,0 +1,20 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes, all three model architectures classified the breed of the first dog (Boxer_02.jpg) as "boxer." 
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: Yes, based on the given information, both Dog_01.jpg and Dog_02.jpg were classified as "boxer" by all three model architectures. Therefore, they classified the breed of the two dogs to be the same.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes, all three model architectures correctly classified Animal_Name_01.jpg (capybara) and Object_Name_01.jpg (chair) as not being dogs. However,There were misclassifications reported for Capybara_01.jpg, where all three model architectures classified it as "beaver" instead of "capybara." 
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: Since all three model architectures achieved perfect accuracy in classifying dogs and not-dogs, except for the misclassification of Capybara_01.jpg as "beaver" instead of "capybara". However, based on the total elapsed runtime, it appears that ALEXNET has the shortest runtime among the three model architectures, with a runtime of 0:0:1. VGG has the longest runtime, taking 0:0:7, and RESNET falls in between with a runtime of 0:0:3. If the runtime is a critical factor for selecting the best model architecture, ALEXNET would be the preferred choice
